@@ -1,0 +1,95 @@
+body
+{
+    padding: 10ps; 
+   background-image: url(/images/orrrrrrrblob-scene-haikei.png);
+   background-position: center;
+   background-size:  cover;
+   height: 109;
+   background-repeat: no repeat;
+   background-attachment: fixed;
+ } 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f1a40a;
+    background-color: #df9f3e;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.4rem;
+    color: #e4bb32;
+}
+
+/* Section styling */
+section {
+    padding: 2rem 1.5rem;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.8rem;
+}
+
+section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.7;
+}
+
+/* Specific styling for sections */
+.intro {
+    background-color: #d78e06;
+}
+
+.mission {
+    background-color: #e5b816;
+}
+
+.history {
+    background-color: #e1ae07;
+}
+
+.team {
+    background-color: #e3b835;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+}

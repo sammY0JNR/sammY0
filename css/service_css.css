@@ -1,0 +1,72 @@
+body{
+    background-image: url(/images/berfgbbbblob-scene-haikei.png);
+  background-position: center;
+  background-size:  cover;
+  height: 110;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Arial,;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #444;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.0rem;
+  color: #071643;
+}
+
+/* Services section styling */
+.services {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(55, 4, 225, 0.929);
+  max-width: 300px;
+  flex: 1 1 300px;
+  text-align: center;
+  transition: transform 0.2 ease-in-out;
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  color: #1f0bf5;
+  margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #2c15c1;
+  line-height: 1.5;
+}
+
+/* Hover effect on service cards */
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(26, 15, 190, 0.837);
+}
